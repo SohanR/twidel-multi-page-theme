@@ -1,0 +1,30 @@
+.navbar{
+    .nav-link{
+        font-size: 14px;
+        text-transform: uppercase;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+
+    }
+
+    .nav-item.active{
+        border-left:rgb(80, 79, 79) 3px solid ;
+    }
+}
+
+.carousel-item{
+    height: 650px;
+}
+
+.slider-img1{
+    background: url(./../img/slider1.jpg);
+    background-size: cover;
+}
+.slider-img2{
+    background: url(./../img/slider2.jpg);
+    background-size: cover;
+}
+.slider-img3{
+    background: url(./../img/slider3.jpg);
+    background-size: cover;
+}
