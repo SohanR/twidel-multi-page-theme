@@ -11,11 +11,124 @@
     integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/fontawesome.min.css"
     integrity="sha256-80fAXabaQMIQSB79XD5pFt2eVZuI12D3yF6/FAkbO8E=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./src/style/style.css">
 
   <title>Twidel</title>
 </head>
 
 <body>
+
+  <!--- Nav Bar-->
+
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Twidel</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./src/resource/about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="./src/resource/services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="./src/resource/blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="./src/resource/contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!---Slider---->
+
+  <section id="showcase">
+    <div id="mySlider" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#mySlider" data-slide-to="0" class="active"></li>
+        <li data-target="#mySlider" data-slide-to="1"></li>
+        <li data-target="#mySlider" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+
+        <div class="carousel-item slider-img1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-right mb-5">
+              <h1 class="display-3">Heading One</h1>
+              <p class="lead">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item slider-img2">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block mb-5">
+              <h1 class="display-3">Heading Two</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item slider-img3">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-left mb-5">
+              <h1 class="display-3">Heading Three</h1>
+              <p class="lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <a href="#" class="btn btn-success">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#mySlider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#mySlider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   <!-- Optional JavaScript -->
