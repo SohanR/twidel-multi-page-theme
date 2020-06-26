@@ -1,5 +1,5 @@
 $icon-size:55px;
-$dark-overlay:rgba(0,0,0,0.7);
+$dark-overlay:rgba(0,0,0,0.5);
 
 body{
     overflow-x: hidden;
@@ -47,4 +47,19 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+#video-play{
+    position: relative;
+    min-height: 200px;
+    background: url("./../img/media.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
+    a{
+        color: #fff;
+    }
 }
