@@ -13,25 +13,6 @@ body {
   border-left: #504f4f 3px solid;
 }
 
-.carousel-item {
-  height: 650px;
-}
-
-.slider-img1 {
-  background: url(./../img/slider1.jpg);
-  background-size: cover;
-}
-
-.slider-img2 {
-  background: url(./../img/slider2.jpg);
-  background-size: cover;
-}
-
-.slider-img3 {
-  background: url(./../img/slider3.jpg);
-  background-size: cover;
-}
-
 .fas {
   font-size: 55px;
 }
