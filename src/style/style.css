@@ -52,4 +52,13 @@ body {
 #video-play a {
   color: #fff;
 }
+
+footer {
+  background: black;
+  color: white;
+}
+
+footer a:link {
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
