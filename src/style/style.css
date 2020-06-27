@@ -61,4 +61,14 @@ footer {
 footer a:link {
   text-decoration: none;
 }
+
+#page-header {
+  height: 200px;
+  background: url("./../img//media.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: white;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
 /*# sourceMappingURL=style.css.map */
